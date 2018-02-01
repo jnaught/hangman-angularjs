@@ -26,7 +26,7 @@ angular.module("HangManApp").controller("mainCtrl", function ($scope) {
     $scope.displayWord = tempDisplayWord
     console.log('selected word: ', selectedWord)
   }
-  // -------------------------- something below this line is breaking the code ----------------------
+
 
   $scope.letterChosen = function () {
     for (let i = 0; i < $scope.correctLetters.length; i++) {
